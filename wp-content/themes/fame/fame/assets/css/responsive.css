@@ -1,0 +1,1693 @@
+/**
+ * VictorThemes Styling
+*/
+
+@media screen and (max-width:1600px) {
+  /* Fame Home V3 Page CSS */
+  .fame-get-started .fame-image img {
+    max-width: 100%;
+  }
+  .fame-image.no-max-width.fame-image-no-animation img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1400px) {
+  .fame-testimonials .owl-drag .owl-prev:before, 
+  .fame-testimonials .owl-drag .owl-next:before {
+    left: -85px;
+  }
+  .fame-testimonials .owl-drag .owl-next:before {
+    right: -83px;
+  }
+}
+
+@media screen and (max-width:1415px) {
+  /* Fame Normal CSS */
+  .owl-drag .owl-prev:before, 
+  .owl-drag .owl-next:before {
+    left: -50px;
+  }
+  .owl-drag .owl-next:before {
+    left: auto;
+    right: -50px;
+  }
+  .no-max-width.fame-image img {
+    max-width: 100%;
+  }
+  /* Fame Portfolio Page CSS */
+  .fame-masonry {
+    margin: 0 -15px;
+  }
+  .masonry-item {
+    padding: 0 15px;
+  }
+  .fame-image-animation:before, .fame-image-animation:after, .fame-image-wrap:before {
+    width: 300px;
+    height: 300px;
+  }
+
+}
+
+@media screen and (max-width:1310px) {
+  .header-right-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1270px) {
+  /* Fame Normal CSS */
+  .container {
+    padding: 0;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (max-width:1270px) {
+  /* Fame Normal CSS */
+  .owl-drag .owl-prev:before, 
+  .owl-drag .owl-next:before, 
+  .header-right-btn {
+    display: none;
+  }
+  /* Fame Home V3 Page CSS */
+  .banner-image .fame-image {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1215px) and (min-width: 992px) {
+  #tribe-bar-form .tribe-bar-filters-inner {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  /* Fame Normal CSS */
+  .fame-banner {
+    height: auto;
+    min-height: auto;
+    padding: 100px 0;
+  }
+  .fame-banner [class*="col-"] {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .fame-banner .fame-image {
+    padding-top: 80px;
+    margin: 0;
+    text-align: center;
+  }
+  .fame-banner.banner-style-three .fame-image {
+    padding-top: 0px;
+  }
+  .fame-banner .fame-image img {
+    max-width: 100%;
+  }
+  .caption-wrap {
+    text-align: center;
+  }
+  .caption-wrap h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .work-process-info {
+    padding-left: 30px;
+  }
+  .fame-faq [class*="col-"] {
+    width: 100%;
+  }
+  .fame-faq .fame-image {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .contact-info p br {
+    display: none;
+  }
+  .screen-info {
+    padding-bottom: 50px;
+  }
+  .fame-screens .owl-carousel .owl-nav {
+    display: block;
+    position: static;
+  }
+  .secondary-wrap {
+    padding-left: 0;
+  }
+  /* Fame Home V2 Page CSS */
+  .location-item {
+    left: 120px;
+  }
+  .location-item:nth-child(2n) {
+    left: 338px;
+  }
+  .location-item:nth-child(3n) {
+    left: 285px;
+  }
+  .location-item:nth-child(4n) {
+    left: 485px;
+  }
+  .location-item:nth-child(5n) {
+    left: 285px;
+  }
+  .location-item:nth-child(6n) {
+    left: auto;
+    right: 265px;
+  }
+  .location-item:nth-child(7n) {
+    left: auto;
+    right: 175px;
+  }
+  .location-item:nth-child(8n) {
+    left: auto;
+    right: 165px;
+  }
+  .location-item:nth-child(9n) {
+    left: 625px;
+  }
+  .location-item:nth-child(10n) {
+    left: 435px;
+  }
+  .location-item:nth-child(11n) {
+    left: 515px;
+  }
+  /* Fame Home V3 Page CSS */
+  .banner-image .fame-image {
+    position: static;
+  }
+  .feature-item {
+    margin: 0 0 50px;
+  }
+  /* Fame News Page CSS */
+  .news-meta [class*="col-"] {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .news-meta .text-right {
+    text-align: left !important;
+  }
+  .fame-share-link {
+    margin: 0 0 15px;
+  }
+  .fame-share-link.fame-hover .fame-social {
+    left: 45px;
+    padding-left: 4px;
+  }
+  .fame-share-link .fame-social {
+    left: 0;
+    right: auto;
+  }
+  .blockquote-style-two {
+    padding: 50px 50px 40px;
+  }
+  .mid-spacer-two {
+    padding-bottom: 100px;
+  }
+  /*Event*/
+  .tribe-events-day .type-tribe_events > * {
+    min-width: 100%;
+  }
+  .tribe-events-day .type-tribe_events img {
+    width: auto;
+  }
+  .tribe-events-day .type-tribe_events .list-featured-image {
+    margin: 0 0 30px;
+  }
+  .tribe-events-day .type-tribe_events .tribe-events-event-meta {
+    margin-bottom: 0;
+  }
+  #tribe-events .tribe-events-day .type-tribe_events p {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+  
+}
+
+@media screen and (max-width:991px) {
+  /* Fame Normal CSS */  
+  .nav-tabs {
+    border-bottom: none;
+    text-align: center;
+  }
+  .nav-tabs a.nav-link {
+    margin: 0 3px 20px;
+    min-width: 10px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    border-bottom: 1px solid #e0e3f8;
+  }
+  .tab-heading {
+    font-size: 18px;
+  }
+  .tab-content {
+    padding-top: 50px;
+  }
+  .download-info {
+    padding: 50px 0 0;
+    text-align: center;
+  }
+  .download-info .section-title-wrap {
+    text-align: center;
+  }
+  .download-info .fame-btn-wrap a {
+    margin: 0 5px 10px;
+  }
+  .status-item {
+    width: 33.33333333%;
+    margin: 0 auto;
+  }
+  .fame-sticky-footer .main-wrap-inner {
+    margin-bottom: 0 !important;
+  }
+  .fame-sticky-footer .fame-footer {
+    position: static;
+  }
+  .info-widget {
+    padding: 0 0 30px;
+  }
+  .tab-content .fame-image {
+    float: none;
+    text-align: center;
+  }
+  .post-widget .tab-content .fame-image {
+    float: left;
+  }
+  .work-process-info {
+    padding: 50px 0 0;
+    text-align: center;
+  }
+  .fame-work-process .owl-carousel .owl-nav {
+    padding-left: 0;
+  }
+  .fame-primary {
+    float: none;
+    width: 100%;
+  }
+  .left-sidebar .fame-primary {
+    float: none;
+  }
+  .fame-secondary {
+    float: none;
+    width: 100%;
+    padding-top: 80px;
+  }
+  .fame-masonry {
+    text-align: center;
+  }
+  /* Fame Home V1 Page CSS */
+  .tab-content .fame-image img {
+    max-width: 100%;
+  }
+  /* Fame Home V2 Page CSS */
+  .swiper-container {
+    height: auto;
+    min-height: auto;
+  }
+  .swiper-slide .fame-icon {
+    padding-top: 25px;
+  }
+  .fame-choose .fame-image {
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+  .choose-wrap {
+    padding-left: 0;
+  }
+  .location-item {
+    top: 80px;
+    left: 60px;
+  }
+  .location-item:nth-child(2n) {
+    left: 250px;
+  }
+  .location-item:nth-child(3n) {
+    top: 245px;
+    left: 200px;
+  }
+  .location-item:nth-child(4n) {
+    top: 120px;
+    left: 370px;
+  }
+  .location-item:nth-child(5n) {
+    top: 115px;
+    left: 200px;
+  }
+  .location-item:nth-child(6n) {
+    top: 80px;
+    left: auto;
+    right: 170px;
+  }
+  .location-item:nth-child(7n) {
+    top: 125px;
+    left: auto;
+    right: 115px;
+  }
+  .location-item:nth-child(8n) {
+    top: 285px;
+    left: auto;
+    right: 95px;
+  }
+  .location-item:nth-child(9n) {
+    top: 190px;
+    left: 492px;
+  }
+  .location-item:nth-child(10n) {
+    top: 175px;
+    left: 330px;
+  }
+  .location-item:nth-child(11n) {
+    top: 265px;
+    left: 400px;
+  }
+  .fame-trail {
+    background: #292e4b;
+    text-align: center;
+  }
+  .fame-trail:after {
+    display: none;
+  }
+  .fame-trail .text-right {
+    padding-top: 25px;
+    text-align: center !important;
+  }
+  .screens-wrap .fame-image.absolute {
+    left: 125px;
+    right: auto;
+  }
+  .screen-info {
+    padding-left: 0;
+  }
+  .clients-style-two .client-item {
+    width: 33.33333333%;
+  }
+  /* Fame Home V3 Page CSS */
+  .fame-get-started .fame-image {
+    padding: 50px 0 0;
+  }
+  .fame-trail.trail-style-two {
+    background: #ffbb00;
+  }
+  .screen-info-item {
+    text-align: center;
+  }
+  .fame-screen-detail .fame-image {
+    padding-bottom: 50px;
+  }
+  .testimonial-wrap .owl-drag .owl-prev:before, 
+  .testimonial-wrap .owl-drag .owl-next:before {
+    display: none;
+  }
+  .fame-get-started, 
+  .fame-get-started .section-title-wrap {
+    text-align: center;
+  }
+  /* Fame About Us Page CSS */
+  .fame-about {
+    padding-top: 100px;
+  }
+  .about-item:nth-child(2n) [class*="col-"]:first-child {
+    float: none;
+  }
+  .about-item:nth-child(2n) .about-info {
+    padding-left: 0;
+  }
+  .about-item .fame-image {
+    padding: 25px 0 0;
+  }
+  /* Fame 404 Error Page CSS */
+  .fame-error {
+    padding: 100px 0;
+  }
+  .fame-error h1 {
+    font-size: 150px;
+    line-height: 160px;
+  }
+  /* Fame Events Page CSS */
+  .event-info-wrap {
+    text-align: center;
+  }
+  .event-info {
+    text-align: left;
+  }
+  /* Fame Portfolio Page CSS */
+  .masonry-item {
+    width: 50%;
+  }
+  /* Fame Portfolio Single Page CSS */
+  .banner-style-three .fame-image {
+    padding-top: 0;
+  }
+  .portfolio-info-title {
+    padding-bottom: 25px;
+  }
+  .portfolio-info-title:after {
+    display: none;
+  }
+  .portfolio-meta {
+    padding-left: 0;
+  }
+  .screens-style-two .screen-info {
+    padding: 0 0 60px;
+  }
+  .screens-style-two .owl-carousel .owl-nav {
+    text-align: center;
+  }
+  /* Fame Contact Us Page CSS */
+  .fame-screen-detail [class*="col-"] {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .tab-content .owl-carousel .owl-nav {
+    padding-left: 0;
+  }
+  .left-sidebar .fame-primary {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .left-sidebar .fame-secondary {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .woocommerce .woocommerce-Addresses.col2-set .col-1, 
+  .woocommerce-page .woocommerce-Addresses.col2-set .col-1, 
+  .woocommerce .woocommerce-Addresses.col2-set .col-2, 
+  .woocommerce-page .woocommerce-Addresses.col2-set .col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 0 0 40px;
+  }
+  .woocommerce ul.products.columns-3 li.product, 
+  .woocommerce-page ul.products.columns-3 li.product,
+  .woocommerce ul.products li.product,
+  .woocommerce-page ul.products li.product {
+    width: 50%;
+  }
+  .single-mate-info {
+    padding-left: 0;
+  }
+  .col-custom-lo {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .service-item {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:782px) {
+  .admin-bar .is-sticky .fame-header {
+    top: 46px !important;
+  }
+}
+@media screen and (max-width:600px) {
+  .admin-bar .is-sticky .fame-header {
+    top: 0 !important;
+  }
+  .fame-masonry[data-item="2"] .masonry-item {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width:767px) {
+  /* Fame Normal CSS */
+  h1, .h1 {
+    font-size: 30px;
+  }
+  h2, .h2 {
+    font-size: 26px;
+  }
+  h3, .h3 {
+    font-size: 20px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+  blockquote {
+    padding: 25px 15px;
+    margin: 10px 0 15px;
+    text-align: center;
+  }
+  blockquote:before {
+    padding-bottom: 25px;
+  }
+  blockquote p {
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  blockquote cite {
+    font-size: 16px;
+  }
+  input[type="text"], 
+  input[type="email"], 
+  input[type="password"], 
+  input[type="tel"], 
+  input[type="search"], 
+  input[type="date"], 
+  input[type="time"], 
+  input[type="datetime-local"], 
+  input[type="event-month"], 
+  input[type="url"], 
+  input[type="number"], 
+  textarea, 
+  select, 
+  .form-control {
+    height: 45px;
+  }
+  form input, 
+  form textarea, 
+  form select {
+    margin-bottom: 15px;
+  }
+  textarea, 
+  textarea.form-control {
+    height: 120px;
+  }
+  .container {
+    padding: 0 25px;
+  }
+  .event-mid-wrap .container {
+    padding: 0;
+  }
+  .fame-header {
+    padding: 20px 25px;
+  }
+  .fame-navigation {
+    padding: 0 25px 25px;
+  }
+  .fame-search {
+    padding: 0 25px;
+  }
+  .search-wrap input[type="text"] {
+    height: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+  }
+  .caption-wrap h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .caption-subtitle {
+    padding-bottom: 15px;
+  }
+  .fame-banner .fame-image {
+    padding-top: 25px;
+  }
+  
+  .fame-page-title {
+    padding: 50px 0 40px;
+  }
+  .footer-wrap {
+    padding: 50px 0 10px;
+  }
+  .service-item {
+    padding: 25px 25px 15px;
+    margin: 0 auto !important;
+    margin-bottom: 35px;
+  }
+  .service-item .fame-icon {
+    padding-bottom: 10px;
+  }  
+  .nav-tabs a.nav-link {
+    padding: 15px;
+  }
+  .nav-tabs a.nav-link > .fame-icon {
+    display: table-cell;
+  }
+  .tab-heading {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 10px;
+  }
+  .service-title {
+    padding-bottom: 5px;
+  }
+  .section-title-wrap {
+    max-width: none;
+    padding-bottom: 20px;
+  }
+  .section-title-wrap h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .service-item h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .section-title {
+    padding-bottom: 10px;
+  }
+  .tab-content {
+    padding-top: 10px;
+  }
+  .work-process-info {
+    padding-top: 20px;
+  }
+  .work-process-info p {
+    padding-bottom: 10px;
+  }
+  .plan-item {
+    padding: 25px;
+    margin-bottom: 35px;
+  }
+  .plan-item .fame-icon {
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+  }
+  .plan-item h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .plan-subtitle {
+    padding-bottom: 15px;
+  }
+  .plan-item h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .plan-item ul {
+    font-size: 16px;
+  }
+  .fame-btn-wrap {
+    padding-top: 20px;
+  }
+  .status-item {
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  .status-item h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .faq-wrap {
+    padding-right: 0;
+  }
+  .panel-title {
+    font-size: 18px;
+  }
+  .panel-title a {
+    padding: 10px 55px 10px 15px;
+  }
+  .panel-content {
+    padding: 15px 0 10px;
+  }
+  .fame-faq .fame-image {
+    margin-top: 10px;
+  }
+  .download-info {
+    padding-top: 25px;
+  }
+  .plan-item ul li {
+    padding: 5px 0;
+  }
+  .fame-image-animation:before, 
+  .fame-image-animation:after, 
+  .fame-image-wrap:before {
+    width: 250px;
+    height: 250px;
+  }
+  .fame-screen-detail .fame-image-animation:before, 
+  .fame-screen-detail .fame-image-animation:after, 
+  .fame-screen-detail .fame-image-wrap:before {
+    width: 300px;
+    height: 300px;
+  }
+  .subscribe-form {
+    max-width: none;
+  }
+  .subscribe-form input[type="email"] {
+    width: 70%;
+  }
+  .subscribe-form button[type="submit"], 
+  .subscribe-form input[type="submit"] {
+    width: 30%;
+  }
+  .fame-logo {
+    padding-bottom: 15px;
+  }
+  .footer-wrap .fame-btn-wrap {
+    padding-top: 5px;
+  }
+  .footer-widget {
+    padding-bottom: 15px;
+  }
+  .footer-widget .widget-title {
+    padding-bottom: 8px;
+  }
+  .footer-widget ul {
+    line-height: 30px;
+  }
+  .contact-info p {
+    line-height: 28px;
+  }
+  .fame-copyright {
+    padding: 25px 0 15px;
+    text-align: center;
+  }
+  .fame-copyright .pull-left {
+    width: 100%;
+  }
+  .fame-copyright .pull-right {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .fame-social a {
+    margin: 0 5px 10px;
+  }
+  /* Fame Home V2 Page CSS */
+  .swiper-container .caption-wrap {
+    padding-top: 50px;
+  }
+  .swiper-container .caption-subtitle {
+    padding-bottom: 10px;
+  }
+  .swiper-button-prev, 
+  .swiper-button-next {
+    width: 50px;
+    height: 50px;
+  }
+  .swiper-button-prev {
+    left: 25px;
+  }
+  .swiper-button-next {
+    right: 25px;
+  }
+  .fame-choose .section-title-wrap {
+    padding-bottom: 20px;
+  }
+  .fame-choose .fame-image {
+    margin-bottom: 25px;
+  }
+  .fame-choose .fame-image-animation:before, 
+  .fame-choose .fame-image-animation:after, 
+  .fame-choose .fame-image-wrap:before {
+    display: none;
+  }
+  .choose-item {
+    padding-bottom: 25px;
+  }
+  .choose-info h3 {
+    font-size: 20px;
+  }
+  .choose-title {
+    padding-bottom: 5px;
+  }
+  .fame-process .section-title-wrap {
+    padding-bottom: 10px;
+  }
+  .process-counter span, 
+  .process-counter span:before, 
+  .process-counter span:after {
+    display: none;
+  }
+  .process-item {
+    padding: 0 0 25px;
+  }
+  .process-item h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+  .process-item h3 {
+    font-size: 20px;
+  }
+  .process-title {
+    padding-bottom: 10px;
+  }
+  .map-locations {
+    display: none;
+  }
+  .fame-trail h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .fame-trail h4 {
+    font-size: 18px;
+  }
+  .fame-trail .video-btn-title {
+    margin-right: 15px;
+  }
+  .screen-info {
+    padding: 0;
+  }
+  .screen-info .bullets-list {
+    padding-top: 5px;
+    font-size: 18px;
+  }
+  .screens-wrap .fame-image {
+    padding-top: 0;
+  }
+  .fame-testimonial .section-title-wrap {
+    padding-bottom: 20px;
+  }
+  .testimonial-item {
+    padding: 60px 25px 25px;
+  }
+  .testimonial-item p {
+    padding-bottom: 10px;
+  }
+  .owl-carousel .owl-dots {
+    padding-top: 25px;
+  }
+  .owl-drag .owl-prev:before, 
+  .owl-drag .owl-next:before {
+    display: none;
+  }
+  .fame-screens .owl-carousel .owl-nav {
+    padding-top: 15px;
+  }
+  .clients-style-two .section-title-wrap {
+    padding-bottom: 20px;
+  }
+  .clients-style-two .section-title {
+    padding-bottom: 10px;
+  }
+  .clients-style-two .client-item {
+    width: 50%;
+    padding-bottom: 35px;
+  }
+  /* Fame Home V2 Page CSS */
+  .banner-image .fame-image { 
+    margin-bottom: 0;
+  }
+  .feature-item {
+    margin-bottom: 35px;
+  }
+  .feature-item .fame-icon, 
+  .feature-title {
+    padding-bottom: 10px;
+  }
+  .feature-item h3 {
+    font-size: 22px;
+  }
+  .feature-link-wrap {
+    padding-top: 10px;
+  }
+  .trail-subtitle {
+    padding-bottom: 0;
+  }
+  .screen-info-item, 
+  .text-right .screen-info-item {
+    padding: 0 0 25px;
+  }
+  .screen-info-item .fame-icon {
+    padding-bottom: 10px;
+  }
+  .screen-info-title {
+    padding-bottom: 5px;
+  }
+  .fame-screen-detail .fame-image {
+    padding-bottom: 25px;
+  }
+  .testimonial-info p {
+    padding-bottom: 10px;
+  }
+  .testimonial-wrap .owl-carousel .owl-dots {
+    padding-top: 10px;
+  }
+  /* Fame Home V3 Page CSS */
+  .testimonial-info {
+    padding: 0;
+  }
+  /* Fame About Us Page CSS */
+  .fame-page-title h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .about-info h2 {
+    font-size: 24px;
+  }
+  .about-title {
+    padding-bottom: 5px;
+  }
+  .about-item {
+    padding-bottom: 35px;
+  }
+  .about-item .fame-image {
+    padding-top: 5px;
+  }
+  /* Fame Team Members Page CSS */
+  .mate-item {
+    margin-bottom: 35px;
+  }
+  .mate-designation, .mate-info p {
+    padding-bottom: 10px;
+  }
+  /* Fame Pricings Page CSS */
+  .price-item {
+    margin-bottom: 35px;
+  }
+  .price-item ul li {
+    padding: 5px 0;
+  }
+  /* Fame 404 Error Page CSS */
+  .fame-error h1 {
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .fame-error h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .error-subtitle {
+    padding-bottom: 10px;
+  }
+  .fame-error p {
+    font-size: 20px;
+  }
+  /* Fame Portfolio Page CSS */
+  .masonry-item {
+    width: 100%;
+  }
+  .masonry-filters {
+    padding-bottom: 15px;
+  }
+  .portfolio-item {
+    margin-bottom: 35px;
+  }
+  .portfolio-info {
+    padding-top: 15px;
+  }
+  .portfolio-info h3 {
+    font-size: 20px;
+  }
+  .portfolio-title {
+    padding-bottom: 5px;
+  }
+  .fame-pagination {
+    padding-top: 10px;
+  }
+  /* Fame Portfolio Single Page CSS */
+  .fame-banner.banner-style-three {
+    padding-top: 50px;
+  }
+  .fame-banner.banner-style-three .fame-image  {
+    padding-top: 0;
+  }
+  .portfolio-info-wrap {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  .portfolio-info-wrap h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .portfolio-info-title {
+    padding-bottom: 15px;
+  }
+  .portfolio-meta h3 {
+    font-size: 20px;
+  }
+  .screens-style-two .screen-info {
+    padding-bottom: 25px;
+  }
+  .fame-choose.choose-style-two {
+    padding-top: 40px;
+  }
+  .screens-style-two .owl-carousel .owl-nav {
+    padding-top: 0;
+  }
+  /* Fame Events Page CSS */
+  .event-item {
+    margin-bottom: 35px;
+  }
+  .event-info {
+    padding-top: 20px;
+  }
+  .event-info h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .event-title {
+    padding-bottom: 5px;
+  }
+  .event-item .fame-link {
+    padding-top: 0;
+  }
+  .event-time {
+    bottom: 10px;
+    left: 10px;
+  }
+  /* Fame Events Single Page */
+  .event-wrap {
+    padding: 15px 0 35px;
+  }
+  .event-wrap-meta .pull-left {
+    width: 100%;
+  }
+  .event-wrap-meta .pull-right{
+    padding-top: 10px;
+    width: 100%;
+  }
+  .event-wrap-meta h2 {
+    font-size: 22px;
+  }
+  .event-wrap .bullets-list {
+    padding-top: 0;
+  }
+  .bullets-list {
+    line-height: 22px;
+  }
+  .bullets-list li {
+    padding: 0 0 8px 22px;
+  }
+  .bullets-list li:before {
+    font-size: 13px;
+  }
+  h2.event-wrap-title {
+    font-size: 24px;
+  }
+  .event-wrap-title {
+    padding-bottom: 10px;
+  }
+  .fame-schedule .panel-default {
+    margin-bottom: 25px;
+  }
+  .fame-schedule .panel-title a {
+    padding: 13px 20px;
+  }
+  .schedule-item {
+    padding: 25px 25px 10px;
+  }
+  .fame-speakers {
+    padding-top: 25px;
+  }
+  .speakers-wrap {
+    padding: 25px;
+  }
+  .speaker-designation {
+    padding-bottom: 5px;
+  }
+  .speaker-info {
+    padding-left: 20px;
+  }
+  .speaker-item {
+    padding-bottom: 20px;
+  }
+  .speaker-info .fame-social {
+    padding-top: 0;
+  }
+  .speaker-info .fame-social a {
+    margin: 0 4px 8px;
+  }
+  .fame-secondary {
+    padding-top: 50px;
+  }
+  .fame-widget:last-child {
+    padding-bottom: 0;
+  }
+  .fame-widget .fame-map {
+    height: 300px;
+  }
+  .fame-widget {
+    padding-bottom: 35px;
+  }
+  .fame-widget .widget-title {
+    font-size: 18px;
+  }
+  .event-widget .widget-title {
+    padding: 10px 20px;
+  }
+  .countdown-value {
+    font-size: 26px;
+  }
+  .widget-countdown .event-widget-wrap {
+    padding: 10px 5px 15px;
+  }
+  /* Fame News Page CSS */
+  .news-item {
+    margin-bottom: 35px;
+  }
+  .news-info {
+    padding-top: 15px;
+  }
+  .news-meta h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .fame-share-link {
+    margin-bottom: 5px;
+  }
+  .fame-share-link > a, 
+  .fame-social.rounded a {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 38px;
+  }
+  .fame-share-link.fame-hover .fame-social {
+    left: 44px;
+  }
+  .news-info p {
+    padding-bottom: 10px;
+  }
+  .blockquote-style-two {
+    padding: 25px;
+    text-align: center;
+  }
+  .blockquote-style-two:before {
+    position: static;
+    height: 30px;
+    background-size: 35px auto;
+  }
+  .blockquote-style-two p {
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .blockquote-style-two p:first-child:before, 
+  .quote-icon::before {
+    display: none;
+  }
+  .blockquote-style-two cite {
+    font-size: 16px;
+  }
+  .pagination-style-two {
+    padding-top: 0;
+    text-align: left;
+  }
+  .fame-widget .widget-title {
+    padding-bottom: 10px;
+  }
+  .categories-widget .widget-title, 
+  .fame-widget .nav-tabs {
+    padding-bottom: 0;
+  }
+  .fame-widget.categories-widget {
+    padding-bottom: 15px;
+  }
+  .post-widget ul li {
+    padding-right: 15px;
+  }
+  .post-info {
+    padding-left: 15px;
+  }
+  .post-info h4 {
+    font-size: 16px;
+  }
+  .post-title {
+    padding-bottom: 5px;
+  }
+  .fame-widget.post-widget {
+    padding-bottom: 0;
+  }
+  .tags-widget a {
+    margin-bottom: 5px;
+  }
+  /* Fame News Single Page CSS */
+  .news-detail-wrap {
+    padding: 15px 0 35px;
+  }
+  .news-detail-wrap p {
+    font-size: 16px;
+  }
+  .fame-news-meta {
+    padding-top: 15px;
+    margin-top: 5px;
+  }
+  .fame-news-meta .pull-left {
+    width: 100%;
+  }
+  .fame-news-meta .pull-right {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .fame-news-meta .fame-social a {
+    margin: 0 4px 4px;
+  }
+  .fame-author-info {
+    padding: 25px;
+  }
+  .author-content .author-name {
+    margin-bottom: 0;
+  }
+  .author-content p {
+    padding-bottom: 10px;
+  }
+  .author-content .fame-social a {
+    margin: 0 5px 5px;
+  }
+  .fame-social a {
+    font-size: 15px;
+  }
+  .fame-related-posts {
+    padding: 35px 0 0;
+  }
+  .fame-related-posts h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .related-post-title {
+    padding-bottom: 10px;
+  }
+  .fame-related-posts .post-item {
+    padding-bottom: 35px;
+  }
+  .fame-related-posts .post-info {
+    padding-top: 15px;
+  }
+  .fame-related-posts .post-date {
+    padding-bottom: 3px;
+  }
+  .fame-related-posts .post-title {
+    padding-bottom: 8px;
+  }
+  .fame-comments-area h3 {
+    font-size: 22px;
+  }
+  .post-info h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .fame-comments-area .comments-title {
+    padding-bottom: 10px;
+  }
+  .fame-comments-area .comment-item {
+    padding-bottom: 25px;
+  }
+  .fame-comments-area .fame-comments-meta {
+    padding-bottom: 0;
+  }
+  .fame-comments-area .comments li .children li {
+    padding-left: 25px;
+  }
+  .fame-comments-area .comment-main-area {
+    padding-left: 15px;
+  }
+  .comments-section {
+    padding-bottom: 0;
+  }
+  .comment-reply-title {
+    padding-bottom: 5px;
+  }
+  .fame-comment-form .form-submit {
+    padding-top: 0;
+  }
+  /* Fame Contact Us Page CSS */
+  .fame-contact .section-title-wrap {
+    padding-bottom: 10px;
+  }
+  .fame-contact .section-title-wrap h2 {
+    font-size: 28px;
+  }
+  .fame-contact .section-title {
+    padding-bottom: 10px;
+  }
+  .fame-map {
+    height: 300px;
+  }
+  /* Fame Content Cross Check Page CSS */
+  .fame-unit-fix .entry-content .comment-form {
+    padding-top: 0;
+  }
+  .fame-unit-fix .entry-content .comment-list article, 
+  .fame-unit-fix .entry-content .comment-list .pingback, 
+  .fame-unit-fix .entry-content .comment-list .trackback {
+    padding: 15px 0 20px;
+  }
+  .entry-content dd {
+    margin-bottom: 10px;
+  }
+  .wp-caption {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .entry-content .comment-list article, 
+  .entry-content .comment-list .pingback, 
+  .entry-content .comment-list .trackback {
+    padding: 20px 0;
+  }
+  .entry-content .comment-content ul, 
+  .entry-content .comment-content ol {
+    margin: 0 0 10px 0;
+  }
+  .entry-content .comment-metadata {
+    margin-bottom: 5px;
+  }
+  .entry-content .comment-list .comment-reply-link {
+    margin-top: 0;
+  }
+  .entry-content .comment-list .children {
+    padding-left: 0;
+  }
+  .entry-content .comment-notes, 
+  .entry-content .comment-awaiting-moderation, 
+  .entry-content .logged-in-as, 
+  .entry-content .form-allowed-tags {
+    padding-bottom: 10px;
+  }
+  .header-links-wrap {
+    margin: 0px 60px 0 0;
+  }
+  .fame-mid-wrap {
+    padding: 70px 0 70px;
+  }
+  .mid-spacer-two,
+  .mid-spacer-three {
+    padding-bottom: 70px;
+  }
+  .info-widget {
+    padding: 0;
+  }
+  .tribe-events-day .type-tribe_events .tribe-events-event-meta {
+    margin-bottom: 15px;
+  }
+  .woocommerce .col2-set .col-1, 
+  .woocommerce-page .col2-set .col-1, 
+  .woocommerce .col2-set .col-2, 
+  .woocommerce-page .col2-set .col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 0 40px;
+  }
+  .single-mate-info {
+    padding: 30px 0 0 0;
+  }
+  .woocommerce ul.products.columns-3 li.product, 
+  .woocommerce-page ul.products.columns-3 li.product,
+  .woocommerce ul.products li.product,
+  .woocommerce-page ul.products li.product {
+    width: 100%;
+  }
+  .fame-screens.screens-style-two {
+    padding: 70px 0 44px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  /* Fame Normal CSS */
+  h1, 
+  .h1 {
+    font-size: 26px;
+  }
+  h2, 
+  .h2 {
+    font-size: 22px;
+  }
+  .caption-subtitle {
+    padding-bottom: 10px;
+  }
+  .caption-wrap h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .caption-wrap .fame-video-btn:before, 
+  .caption-wrap .fame-video-btn:after {
+    width: 60px;
+    height: 60px;
+  }
+  .fame-video-link {
+    padding: 15px 0 0;
+  }
+  .video-btn-title {
+    margin-left: 15px;
+  }
+  .section-title-wrap h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .nav-tabs > li {
+    display: block;
+  }
+  .panel-title a {
+    padding-right: 45px;
+  }
+  .panel-title a:after {
+    right: 15px;
+  }
+  .subscribe-form input[type="email"] {
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .subscribe-form button[type="submit"], 
+  .subscribe-form input[type="submit"] {
+    width: 100%;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+  }
+  /* Fame Home V2 Page CSS */
+  .swiper-button-prev, 
+  .swiper-button-next {
+    display: none;
+  }
+  .fame-trail .fame-video-btn, 
+  .fame-video-btn {
+    width: 60px;
+    height: 60px;
+  }
+  .choose-item .fame-icon {
+    padding-right: 15px;
+  }
+  .screens-wrap .fame-image.absolute {
+    top: -10px;
+    left: 50px;
+  }
+  .clients-style-two .client-item {
+    width: 100%;
+  }
+  /* Fame Home V2 Page CSS */
+  .fame-screen-detail .fame-image-animation:before, 
+  .fame-screen-detail .fame-image-animation:after, 
+  .fame-screen-detail .fame-image-wrap:before {
+    display: none;
+  }
+  /* Fame Team Members Page CSS */
+  .mate-item {
+    text-align: center;
+  }
+  .mate-item .fame-image {
+    float: none;
+  }
+  .mate-info h3 {
+    font-size: 20px;
+  }
+  .mate-info {
+    padding: 10px 0 0;
+  }
+  .mate-info .fame-social a {
+    margin: 0 4px 8px;
+  }
+  /* Fame Events Single Page */
+  .schedule-item .fame-image {
+    float: none;
+  }
+  .schedule-info {
+    padding: 10px 0 0;
+  }
+  .schedule-info h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .speaker-item, 
+  .single-tribe_events .tribe-events-event-image,
+  .schedule-item {
+    text-align: center;
+  }
+  .speaker-item .fame-image {
+    float: none;
+  }
+  .speaker-info h3 {
+    font-size: 20px;
+  }
+  .speaker-info {
+    padding: 10px 0 0;
+  }
+  /* Fame News Page CSS */
+  .post-widget .nav-tabs > li {
+    display: inline-block;
+  }
+  /* Fame Contact Us Page CSS */
+  .fame-contact .section-title-wrap h2 {
+    font-size: 26px;
+  }
+  #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next, 
+  #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #tribe-events-footer:before, #tribe-events-header:before,
+  #tribe-events-footer:after, #tribe-events-header:after {
+    content: none;
+  }
+  .countdown-item {
+    width: 50%;
+  }
+  .countdown-item:nth-child(2):after {
+    content: none;
+  }
+  .tribe-events-tickets table.tribe-tickets-table,
+  .tribe-tickets-rsvp .tribe-events-tickets-rsvp .tribe-ticket.quantity,
+  .tribe-tickets-rsvp .tribe-events-tickets .tickets_name,
+  .tribe-tickets-rsvp .tribe-events-tickets .tickets_description {
+    width: 100%;
+    display: block;
+  }
+  .tribe-events-tickets td.tribe-tickets-attendees {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mate-item .fame-image {
+    margin: 0 auto;
+  }
+  .fame-losi-wrap form p.login-username, 
+  .fame-losi-wrap form p.login-password {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:479px) {
+  /* Fame Normal CSS */
+  input[type="submit"], 
+  button[type="submit"] {
+    width: 100%;
+  }
+  .search-widget form input[type="submit"], 
+  .search-wrap input[type="submit"] {
+    width: auto;
+  }
+  .panel-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .footer-wrap .fame-btn-wrap a {
+    margin-bottom: 10px;
+  }
+  .fame-image-animation:before, 
+  .fame-image-animation:after, 
+  .fame-image-wrap:before {
+    width: 180px;
+    height: 180px;
+  }
+  .fame-page-title h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  /* Fame Home V2 Page CSS */
+  .choose-item {
+    text-align: center;
+  }
+  .choose-item .fame-icon {
+    float: none;
+    padding: 0 0 10px;
+  }
+  /* Fame 404 Error Page CSS */
+  .fame-error h1 {
+    font-size: 80px;
+    line-height: 65px;
+  }
+  .fame-error h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  /* Fame Portfolio Single Page CSS */
+  .portfolio-info-wrap h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* Fame Events Page CSS */
+  .event-info h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  /* Fame News Single Page CSS */
+  .fame-author-info {
+    text-align: center;
+  }
+  .author-avatar {
+    float: none;
+  }
+  .author-content {
+    padding: 10px 0 0;
+  }
+  .author-content .fame-social a {
+    margin: 0 4px 8px;
+  }
+  .fame-comments-area .comment-image {
+    float: none;
+    padding-top: 0;
+  }
+  .fame-comments-area .comment-main-area {
+    padding: 10px 0 0;
+  }
+  .fame-comments-area .comments-reply {
+    position: static;
+    padding: 5px 0;
+  }
+  .fame-comments-area .comments li .children li {
+    padding-left: 0;
+  }
+  .woocommerce ul.products[class*=columns-] li.product, 
+  .woocommerce-page ul.products[class*=columns-] li.product {
+    width: 100%;
+    margin: 0;
+  }
+  .woocommerce #reviews #comments ol.commentlist li img.avatar {
+    padding: 3px;
+    width: 60px;
+    position: relative;
+    float: none;
+    margin: 0 auto 10px;
+    display: block;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin: 0;
+    text-align: center;
+  }
+  .woocommerce .comment_container .star-rating {
+    float: none;
+    margin: 0 auto 5px;
+  }
+  .col-custom-lo {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .service-item {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .woocommerce-cart table.cart td.actions .coupon .input-text {
+    float: none;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .woocommerce-cart table.cart td.actions .coupon .button {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:359px) {
+  /* Fame Events Single Page */
+  h2.event-wrap-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  /* Fame News Page CSS */
+  .news-meta h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  /* Fame News Single Page CSS */
+  .fame-related-posts h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+  /* Fame Normal CSS */
+  .fame-navigation {
+    height: 200px;
+  }
+}
